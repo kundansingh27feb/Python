@@ -3,7 +3,7 @@
 # Numbers
 #___________________________________________________________________________
 
-#Question1: Write an equation that uses multiplication, division, an exponent, addition, and 
+#Question1: Write an equation that uses multiplication, division, an exponent, addition, and
 # subtraction that is equal to 100.25.
 #Hint: This is just to test your memory of the basic arithmetic commands, work backwards from 100.25
 
@@ -58,7 +58,7 @@ print(l1)
 l2 = [0]*3
 print(l2)
 
-# Question8: Reassign 'hello' in this nested list to say 'goodbye' instead 
+# Question8: Reassign 'hello' in this nested list to say 'goodbye' instead
 # list3 = [1,2,[3,4,'hello']]
 
 list3 = [1,2,[3,4,'hello']]
@@ -81,7 +81,7 @@ print(list4)
 # Dictionaries
 #___________________________________________________________________________
 
-# Question10: Using keys and indexing, grab the 'hello' from the following dictionaries: 
+# Question10: Using keys and indexing, grab the 'hello' from the following dictionaries:
 # d = {'simple_key':'hello'} And d = {'k1':{'k2':'hello'}}
 
 d = {'simple_key':'hello'}
@@ -120,7 +120,7 @@ t = (1,4,6,9)
 
 # **Answer: They don't allow for duplicate items!
 
-# Question15: Use a set to find the unique values of the list below: 
+# Question15: Use a set to find the unique values of the list below:
 # list5 = [1,2,2,33,4,4,11,22,3,3,2]
 
 list5 = [1,2,2,33,4,4,11,22,3,3,2]

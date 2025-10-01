@@ -6,10 +6,10 @@
 
 #General Question: What Is lambda And where we can Use it?
 
-#General Answer: 
+#General Answer:
 #_____________________________________________________________________________________________
 
-#Question1: Write a lambda function to add 10 to a number. 
+#Question1: Write a lambda function to add 10 to a number.
 
 #Answer1:
 add_10 = lambda x: x+10
@@ -29,12 +29,12 @@ print("\nAnswer2: Result Of 2 numbers multiplication: ", multiple(100,200))
 
 
 #___________________________________________________________________________
-#Question4:  Use map() to square all numbers in a list. 
+#Question4:  Use map() to square all numbers in a list.
 
 #Answer4:
 
 #___________________________________________________________________________
-# #Question5: Convert a list of strings to uppercase. 
+# #Question5: Convert a list of strings to uppercase.
 
 #Answer5:
 
@@ -44,37 +44,37 @@ print("\nAnswer2: Result Of 2 numbers multiplication: ", multiple(100,200))
 #Answer6:
 
 #___________________________________________________________________________
-#Question7: Filter even numbers from a list. 
+#Question7: Filter even numbers from a list.
 
 #Answer7:
 
 #___________________________________________________________________________
-#Question8: Filter names starting with "A". 
+#Question8: Filter names starting with "A".
 
 #Answer8:
 
 #___________________________________________________________________________
-#Question9: Filter numbers greater than 50. 
+#Question9: Filter numbers greater than 50.
 
 #Answer9:
 
 #___________________________________________________________________________
-#Question10: Use map() and filter() to get squares of even numbers only. 
+#Question10: Use map() and filter() to get squares of even numbers only.
 
 #Answer10:
 
 #___________________________________________________________________________
-#Question11: Extract palindromes from a list of words. 
+#Question11: Extract palindromes from a list of words.
 
 #Answer11:
 
 #___________________________________________________________________________
-#Question12: Sort a list of dictionaries by "age" using lambda. 
+#Question12: Sort a list of dictionaries by "age" using lambda.
 
 #Answer12:
 
 #___________________________________________________________________________
-#Question13: Use map() to get the length of each string. 
+#Question13: Use map() to get the length of each string.
 
 #Answer13:
 
@@ -85,7 +85,7 @@ print("\nAnswer2: Result Of 2 numbers multiplication: ", multiple(100,200))
 
 #___________________________________________________________________________
 #Question15: Given a list of transactions, filter out failed ones and return only the amounts
-# squared. 
+# squared.
 
 #Answer15:
 
