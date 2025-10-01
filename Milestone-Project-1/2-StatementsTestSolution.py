@@ -2,8 +2,8 @@
 # Statements Assessment
 #___________________________________________________________________________
 
-#Question1: Use for, .split(), and if to create a Statement that will print out words that start 
-# with 's'. Also what split function do?: st = 'Print only the words that start with s in this 
+#Question1: Use for, .split(), and if to create a Statement that will print out words that start
+# with 's'. Also what split function do?: st = 'Print only the words that start with s in this
 # sentence'
 
 st = 'Print only the words that start with s in this sentence Sanju'
@@ -36,7 +36,7 @@ print(num)
 
 #___________________________________________________________________________
 
-#Question4: Go through the string below and if the length of a word is even print "even!" 
+#Question4: Go through the string below and if the length of a word is even print "even!"
 # st = 'Print every word in this sentence that has an even number of letters'
 
 st = 'Print every word in this sentence that has an even number of letters'
@@ -44,9 +44,9 @@ for word in st.split():
     if len(word) % 2 == 0:
         print(word," <-- Has an even length!!")
 
-#  
-#Question5: Write a program that prints the integers from 1 to 100. But for multiples of three 
-# print "Fizz" instead of the number, and for the multiples of five print "Buzz". For numbers which 
+#
+#Question5: Write a program that prints the integers from 1 to 100. But for multiples of three
+# print "Fizz" instead of the number, and for the multiples of five print "Buzz". For numbers which
 # are multiples of both three and five print "FizzBuzz".
 
 for num in range(1,101):
@@ -61,10 +61,10 @@ for num in range(1,101):
 
 #___________________________________________________________________________
 
-#  
-#Question6: Use a List Comprehension to create a list of the first letters of every word in the 
-# string below: Use a List Comprehension to create a list of the first letters of every word in 
-# the string below(Use 2 mothod to solve this): st = 'Create a list of the first letters of every 
+#
+#Question6: Use a List Comprehension to create a list of the first letters of every word in the
+# string below: Use a List Comprehension to create a list of the first letters of every word in
+# the string below(Use 2 mothod to solve this): st = 'Create a list of the first letters of every
 # word in this string'
 
 #Method 1:

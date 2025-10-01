@@ -45,7 +45,7 @@
 #___________________________________________________________________________
 # LEVEL 1 PROBLEMS:
 #----------------
-#Question4: OLD MACDONALD: Write a function that capitalizes the first and fourth letters of a name 
+#Question4: OLD MACDONALD: Write a function that capitalizes the first and fourth letters of a name
 #old_macdonald('macdonald') --> MacDonald
 
 #Answer4:
@@ -92,7 +92,7 @@
 #Question8: PAPER DOLL: Given a string, return a string where for every character in the original
 # there are three characters
 #paper_doll('Hello') --> 'HHHeeellllllooo'
-#paper_doll('Mississippi') --> 'MMMiiissssssiiippppppiii' 
+#paper_doll('Mississippi') --> 'MMMiiissssssiiippppppiii'
 
 #Answer8:
 
@@ -126,7 +126,7 @@
  #spy_game([1,2,4,0,0,7,5]) --> True
  #spy_game([1,0,2,4,0,5,7]) --> True
  #spy_game([1,7,2,0,4,5,0]) --> False
- 
+
 #Answer11:
 
 
@@ -135,16 +135,16 @@
 # to and including a given number
 #count_primes(100) --> 25
 #By convention, 0 and 1 are not prime.
- 
+
 #Answer12:
 
 
 #___________________________________________________________________________
-#Question13: PRINT BIG: Write a function that takes in a single letter, and returns a 5x5 
+#Question13: PRINT BIG: Write a function that takes in a single letter, and returns a 5x5
 # representation of that letter
 #print_big('a')
 
-#out:   *  
+#out:   *
 #      * *
 #     *****
 #     *   *
@@ -152,7 +152,7 @@
 #HINT: Consider making a dictionary of possible patterns, and mapping the alphabet to specific
 # 5-line combinations of patterns.
 #For purposes of this exercise, it's ok if your dictionary stops at "E".
- 
+
 #Answer13:
 
 

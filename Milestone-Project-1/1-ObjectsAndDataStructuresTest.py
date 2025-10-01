@@ -40,7 +40,7 @@
 # Question7: Build this list [0,0,0] two separate ways.
 # **Answer:?
 
-#Question8: Reassign 'hello' in this nested list to say 'goodbye' instead 
+#Question8: Reassign 'hello' in this nested list to say 'goodbye' instead
 # list3 = [1,2,[3,4,'hello']]
 # **Answer:?
 
@@ -52,7 +52,7 @@
 # Dictionaries
 #_____________________________________________________________________________________________
 
-# Question10: Using keys and indexing, grab the 'hello' from the following dictionaries: 
+# Question10: Using keys and indexing, grab the 'hello' from the following dictionaries:
 # d = {'simple_key':'hello'} And d = {'k1':{'k2':'hello'}}
 # **Answer:?
 
@@ -78,7 +78,7 @@
 # Question14: What is unique about a set?
 # **Answer:?
 
-# Question15: Use a set to find the unique values of the list below: 
+# Question15: Use a set to find the unique values of the list below:
 # list5 = [1,2,2,33,4,4,11,22,3,3,2]
 # **Answer:?
 
@@ -86,8 +86,8 @@
 
 # Booleans
 #_____________________________________________________________________________________________
-# Question16: What will be the resulting Boolean of the following pieces of code 
-# (answer fist then check by typing it in!) 
+# Question16: What will be the resulting Boolean of the following pieces of code
+# (answer fist then check by typing it in!)
 # a = 2 > 3, a = 3 <= 2, a = 3 == 2.0, a = 3.0 == 3, a = 4**0.5 != 2
 # **Answer:?
 

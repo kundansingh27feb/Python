@@ -59,7 +59,7 @@ print("Answer3:", makes_twenty(2,3))
 # LEVEL 1 PROBLEMS:
 #----------------
 #Question4: OLD MACDONALD: Write a function that capitalizes the first and
-# fourth letters of a name 
+# fourth letters of a name
 #old_macdonald('macdonald') --> MacDonald
 
 #Answer4:
@@ -122,7 +122,7 @@ print("Answer7-1:", has_33([3, 3, 6]))
 def has_33_2(nums):
     for i in range(0, len(nums)-1):
         if nums[i:i+2] == [3,3]:
-            return True  
+            return True
     return False
 print("Answer7-2:", has_33_2([3, 3, 6]))
 
@@ -130,7 +130,7 @@ print("Answer7-2:", has_33_2([3, 3, 6]))
 #Question8: PAPER DOLL: Given a string, return a string where for every character in the
 # original there are three characters
 #paper_doll('Hello') --> 'HHHeeellllllooo'
-#paper_doll('Mississippi') --> 'MMMiiissssssiiippppppiii' 
+#paper_doll('Mississippi') --> 'MMMiiissssssiiippppppiii'
 
 #Answer8:
 
@@ -196,7 +196,7 @@ print("Answer10:", summer_69([2, 1, 6, 9, 11]))
  #spy_game([1,2,4,0,0,7,5]) --> True
  #spy_game([1,0,2,4,0,5,7]) --> True
  #spy_game([1,7,2,0,4,5,0]) --> False
- 
+
 #Answer11:
 def spy_game(nums):
     code = [0,0,7,'x']
@@ -211,7 +211,7 @@ print("Answer11:", spy_game([1,2,4,1,0,7,5]))
 # up to and including a given number
 #count_primes(100) --> 25
 #By convention, 0 and 1 are not prime.
- 
+
 #Answer12:
 
 def primes(num):
@@ -236,7 +236,7 @@ print ("Answer12:", primes(1000))
 # representation of that letter
 #print_big('a')
 
-#out:   *  
+#out:   *
 #      * *
 #     *****
 #     *   *
@@ -245,7 +245,7 @@ print ("Answer12:", primes(1000))
 # specific
 # 5-line combinations of patterns.
 #For purposes of this exercise, it's ok if your dictionary stops at "E".
- 
+
 #Answer13:
 
 #___________________________________________________________________________
