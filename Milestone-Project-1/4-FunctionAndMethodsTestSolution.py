@@ -13,6 +13,9 @@ Answer1:
 import string
 
 def vol(redius):
+    """
+    Function
+    """
     return (4/3)*(3.14)*(redius**3)
 print("\nAnswer1: ", vol(2))
 
@@ -25,6 +28,9 @@ print("\nAnswer1: ", vol(2))
 
 #Answer2:
 def ran_check(num,low,high):
+    """
+    Function
+    """
     if num in range(low,high+1):
         print("\nAnswer2:", num, "Is in the range of ", low, " And ", high)
     else:
@@ -43,6 +49,9 @@ ran_check(10,2,7)
 #Answer3:
 
 def up_low(str1):
+    """
+    Function
+    """
     d={"Upper":0, "Lower":0}
     for ltr in str1:
         if ltr.isupper():
@@ -65,6 +74,9 @@ up_low('Hello Mr. Rogers, How Are You this fIne Tuesday?')
 #Answer4:
 list1 = [1,1,1,1,2,2,3,3,3,3,4,5]
 def unq_list(list1):
+    """
+    Function
+    """
     list2 = []
     for e in list1:
         if e not in list2:
@@ -79,6 +91,9 @@ unq_list(list1)
 
 #Answer5:
 def mul_list(list1):
+    """
+    Function
+    """
     mul = 1
     for e in list1:
         mul *=e
@@ -100,6 +115,9 @@ mul_list(list1)
 #Answer6:
 
 def palindrome_check(word):
+    """
+    Function
+    """
     word = word.replace(" ","")
     rev = word[::-1]
     if word == rev:
@@ -123,6 +141,9 @@ palindrome_check("nurses run")
 #Answer7:
 
 def ispergram(str1, alphabet=string.ascii_lowercase):
+    """
+    Function
+    """
     alphabet = set(alphabet)
     str1 = str1.replace(" ","")
     str1 = str1.lower()

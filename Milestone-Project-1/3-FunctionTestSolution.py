@@ -23,11 +23,14 @@ Answer1:
 """
 
 def less_of_2_even(a,b):
+    """
+    Function
+    """
     if a%2 == 0 and b%2 == 0:
         return min(a,b)
     else:
         return max(a,b)
-print("Answer1:", less_of_2_even(5,8))
+print("Answer1:", less_of_2_even(4,8))
 
 #___________________________________________________________________________
 #Question2: ANIMAL CRACKERS: Write a function takes a two-word string and returns True
@@ -38,6 +41,9 @@ print("Answer1:", less_of_2_even(5,8))
 
 #Answer2:
 def animal_crackers(str1):
+    """
+    Function
+    """
     wordlist = str1.split()
     return wordlist[0][0].upper() == wordlist[1][0].upper()
 print("Answer2:", animal_crackers('Kundan kanha'))
@@ -54,6 +60,9 @@ print("Answer2:", animal_crackers('Kundan kanha'))
 #     return (n1+n2)==20 or n1==20 or n2==20
 
 def makes_twenty(p1,p2):
+    """
+    Function
+    """
     return (p1+p2)==20 or p1==20 or p2==20
 print("Answer3:", makes_twenty(2,3))
 
@@ -67,6 +76,9 @@ print("Answer3:", makes_twenty(2,3))
 #Answer4:
 
 def old_macdonald(str1):
+    """
+    Function
+    """
     if len(str1) > 3:
         return str1[:3].capitalize() + str1[3:].capitalize()
     else:
@@ -82,6 +94,9 @@ print("Answer4:", old_macdonald('MACDonalD'))
 #Answer5:
 
 def master_yoda(str1):
+    """
+    Function
+    """
     return ' '.join(str1.split()[::-1])
 print("Answer5:", master_yoda("My Name Is Kundan Singh! . . ."))
 
@@ -98,6 +113,9 @@ print("Answer5:", master_yoda("My Name Is Kundan Singh! . . ."))
 #Answer6:
 
 def almost_there(num):
+    """
+    Function
+    """
     return ((abs(100 - num) <= 10) or abs((200 - num) <=10))
 print("Answer6:", almost_there(90))
 #___________________________________________________________________________
@@ -112,6 +130,9 @@ print("Answer6:", almost_there(90))
 #Answer7:
 #Method1:
 def has_33(nums):
+    """
+    Function
+    """
     for i in range(0, len(nums)-1):
         # nicer looking alternative in commented code
         if nums[i] == 3 and nums[i+1] == 3:
@@ -122,6 +143,9 @@ print("Answer7-1:", has_33([3, 3, 6]))
 
 #Method1:
 def has_33_2(nums):
+    """
+    Function
+    """
     for i in range(0, len(nums)-1):
         if nums[i:i+2] == [3,3]:
             return True
@@ -137,6 +161,9 @@ print("Answer7-2:", has_33_2([3, 3, 6]))
 #Answer8:
 
 def paper_doll(str1):
+    """
+    Function
+    """
     result = ''
     for char in str1:
         result += char * 3
@@ -153,6 +180,9 @@ print("Answer8:", paper_doll('Kundan'))
 #Answer9:
 
 def blackjack(a,b,c):
+    """
+    Function
+    """
     if sum((a,b,c)) <= 21:
         return sum((a,b,c))
     elif sum((a,b,c)) <= 31 and 11 in (a,b,c):
@@ -172,6 +202,9 @@ print("Answer9:", blackjack(11,11,10))
 #Answer10:
 
 def summer_69(arrs):
+    """
+    Function
+    """
     total = 0
     add = True
     for num in arrs:
@@ -201,6 +234,9 @@ print("Answer10:", summer_69([2, 1, 6, 9, 11]))
 
 #Answer11:
 def spy_game(nums):
+    """
+    Function
+    """
     code = [0,0,7,'x']
     for num in nums:
         if num == code[0]:
@@ -217,6 +253,9 @@ print("Answer11:", spy_game([1,2,4,1,0,7,5]))
 #Answer12:
 
 def primes(num):
+    """
+    Function
+    """
     prime_num = [2]
     x = 3
     if num < 2:
