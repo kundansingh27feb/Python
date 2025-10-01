@@ -156,16 +156,18 @@ print(set(LIST5))
 # Question16: What will be the resulting Boolean of the following pieces of code (answer fist then
 # check by typing it in!) a = 2 > 3, a = 3 <= 2, a = 3 == 2.0, a = 3.0 == 3, a = 4**0.5 != 2
 
-
-A = 2 > 3
+VOL1 = 6
+VOL2 = 10
+VOL3 = 0.5
+A = VOL1 > VOL2
 print(A)
-A = 3 <= 2
+A = VOL1 <= VOL2
 print(A)
-A = 3 == 2.0
+A = VOL1 == VOL2
 print(A)
-A = 3.0 == 3
+A = VOL1 == VOL2
 print(A)
-A = 4**0.5 != 2
+A = VOL1**VOL3 != VOL2
 print(A)
 
 
