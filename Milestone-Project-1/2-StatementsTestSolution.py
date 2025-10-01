@@ -70,14 +70,14 @@ for num in range(1,101):
 # word in this string'
 
 #Method 1:
-st = 'Create a list of the first letters of every word in this string'
-list1=[]
-for word in st.split():
-    list1.append(word[0])
-print(list1)
+ST1 = 'Create a list of the first letters of every word in this string'
+LIST1=[]
+for word in ST1.split():
+    LIST1.append(word[0])
+print(LIST1)
 
 #Method 2:
 
-list1 = [word[0] for word in st.split()]
-print(list1)
+LIST1 = [word[0] for word in ST1.split()]
+print(LIST1)
 #___________________________________________________________________________
