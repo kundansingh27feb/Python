@@ -1,9 +1,10 @@
-#_____________________________________________________________________________________________
-
+#___________________________________________________________________________
 # Statements Assessment
-#_____________________________________________________________________________________________
+#___________________________________________________________________________
 
-#Question1: Use for, .split(), and if to create a Statement that will print out words that start with 's'. Also what split function do?: st = 'Print only the words that start with s in this sentence'
+#Question1: Use for, .split(), and if to create a Statement that will print out words that start 
+# with 's'. Also what split function do?: st = 'Print only the words that start with s in this 
+# sentence'
 
 st = 'Print only the words that start with s in this sentence Sanju'
 for word in st.split():
@@ -12,10 +13,15 @@ for word in st.split():
 #Split finction split the sentence in a list
 print(st.split())
 
+#___________________________________________________________________________
+
 #Question2: Use range() to print all the even numbers from 0 to 10.
 print(list(range(0,11,2)))
 
-#Question3: Use List comprehension to create a list of all numbers between 1 and 50(using 2 method) that are divisible by 3.
+#___________________________________________________________________________
+
+#Question3: Use List comprehension to create a list of all numbers between 1 and 50(using 2 method)
+# that are divisible by 3.
 
 #Method1:
 num = [x for x in range(1,51) if x%3 == 0]
@@ -28,7 +34,10 @@ for x in range(1,51):
         num.append(x)
 print(num)
 
-#Question4: Go through the string below and if the length of a word is even print "even!" st = 'Print every word in this sentence that has an even number of letters'
+#___________________________________________________________________________
+
+#Question4: Go through the string below and if the length of a word is even print "even!" 
+# st = 'Print every word in this sentence that has an even number of letters'
 
 st = 'Print every word in this sentence that has an even number of letters'
 for word in st.split():
@@ -36,7 +45,9 @@ for word in st.split():
         print(word," <-- Has an even length!!")
 
 #  
-#Question5: Write a program that prints the integers from 1 to 100. But for multiples of three print "Fizz" instead of the number, and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz".
+#Question5: Write a program that prints the integers from 1 to 100. But for multiples of three 
+# print "Fizz" instead of the number, and for the multiples of five print "Buzz". For numbers which 
+# are multiples of both three and five print "FizzBuzz".
 
 for num in range(1,101):
     if num%3 == 0 and num%5 == 0:
@@ -48,9 +59,13 @@ for num in range(1,101):
     else:
         print(num)
 
+#___________________________________________________________________________
 
 #  
-#Question6: Use a List Comprehension to create a list of the first letters of every word in the string below: Use a List Comprehension to create a list of the first letters of every word in the string below(Use 2 mothod to solve this): st = 'Create a list of the first letters of every word in this string'
+#Question6: Use a List Comprehension to create a list of the first letters of every word in the 
+# string below: Use a List Comprehension to create a list of the first letters of every word in 
+# the string below(Use 2 mothod to solve this): st = 'Create a list of the first letters of every 
+# word in this string'
 
 #Method 1:
 st = 'Create a list of the first letters of every word in this string'
@@ -63,3 +78,4 @@ print(list1)
 
 list1 = [word[0] for word in st.split()]
 print(list1)
+#___________________________________________________________________________
