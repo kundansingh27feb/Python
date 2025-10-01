@@ -68,7 +68,7 @@ print(STR1[-1])
 #
 
 L1 = [0,0,0]
-print(l1)
+print(L1)
 L2 = [0]*3
 print(L2)
 

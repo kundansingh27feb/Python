@@ -8,12 +8,12 @@ with 's'. Also what split function do?: st = 'Print only the words that start wi
 sentence'
 """
 
-str1 = 'Print only the words that start with s in this sentence Sanju'
-for word in str1.split():
+STR1 = 'Print only the words that start with s in this sentence Sanju'
+for word in STR1.split():
     if word[0] == 's' or word[0] == 'S':
         print(word)
 #Split finction split the sentence in a list
-print(str1.split())
+print(STR1.split())
 
 #___________________________________________________________________________
 
@@ -41,8 +41,8 @@ print(num)
 #Question4: Go through the string below and if the length of a word is even print "even!"
 # st = 'Print every word in this sentence that has an even number of letters'
 
-st = 'Print every word in this sentence that has an even number of letters'
-for word in st.split():
+ST1 = 'Print every word in this sentence that has an even number of letters'
+for word in ST1.split():
     if len(word) % 2 == 0:
         print(word," <-- Has an even length!!")
 
