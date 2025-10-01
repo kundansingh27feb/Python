@@ -35,16 +35,16 @@ print("Square root of 100 is: ",sqroot," And sqaure of 10 is: ", square)
 # Question4: Given the string 'hello' give an index command that returns 'e'. Enter your code in
 # the cell below:
 
-str = "hello"
-print(str[1])
+str1 = "hello"
+print(str1[1])
 
 # Question5: Reverse the string 'hello' using slicing:
 
-print(str[::-1])
+print(str1[::-1])
 
 # Question6: Given the string 'hello', give two methods of producing the letter 'o' using indexing.
-print(str[4])
-print(str[-1])
+print(str1[4])
+print(str1[-1])
 
 #___________________________________________________________________________
 
