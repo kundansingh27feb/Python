@@ -1,10 +1,12 @@
-#___________________________________________________________________________
-# Statements Assessment
-#___________________________________________________________________________
+"""
+___________________________________________________________________________
+Statements Assessment
+___________________________________________________________________________
 
-#Question1: Use for, .split(), and if to create a Statement that will print out words that start
-# with 's'. Also what split function do?: st = 'Print only the words that start with s in this
-# sentence'
+Question1: Use for, .split(), and if to create a Statement that will print out words that start
+with 's'. Also what split function do?: st = 'Print only the words that start with s in this
+sentence'
+"""
 
 str1 = 'Print only the words that start with s in this sentence Sanju'
 for word in str1.split():
