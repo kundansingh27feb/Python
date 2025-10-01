@@ -72,17 +72,17 @@ up_low('Hello Mr. Rogers, How Are You this fIne Tuesday?')
 #Unique List : [1, 2, 3, 4, 5]
 
 #Answer4:
-list1 = [1,1,1,1,2,2,3,3,3,3,4,5]
-def unq_list(list1):
+LIST1 = [1,1,1,1,2,2,3,3,3,3,4,5]
+def unq_list(l1):
     """
     Function
     """
     list2 = []
-    for e in list1:
+    for e in l1:
         if e not in list2:
             list2.append(e)
     print("\nAnswer4: ", list2)
-unq_list(list1)
+unq_list(LIST1)
 
 #___________________________________________________________________________
 #Question5: Write a Python function to multiply all the numbers in a list.
@@ -90,16 +90,16 @@ unq_list(list1)
 #Expected Output : -24
 
 #Answer5:
-def mul_list(list1):
+def mul_list(l1):
     """
     Function
     """
     mul = 1
-    for e in list1:
+    for e in l1:
         mul *=e
     print("\nAnswer5: ", mul)
-list1 = [2,4,3]
-mul_list(list1)
+LIST1 = [2,4,3]
+mul_list(LIST1)
 
 #___________________________________________________________________________
 
