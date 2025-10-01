@@ -9,7 +9,7 @@ subtraction that is equal to 100.25.
 Hint: This is just to test your memory of the basic arithmetic commands, work backwards from 100.25
 """
 
-a = (60 + (10 ** 2) / 4 * 7) - 134.75
+a = ((60 + (10 ** 2) / 4 * 7) - 134.75)
 print(a)
 
 """
