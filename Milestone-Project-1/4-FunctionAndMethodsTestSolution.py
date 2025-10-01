@@ -1,14 +1,16 @@
+"""
+___________________________________________________________________________
 
-#___________________________________________________________________________
+Function And Methods Homework
+___________________________________________________________________________
 
-# Function And Methods Homework
-#___________________________________________________________________________
+Question1: Write a function that computes the volume of a sphere given its radius.
+The volume of a sphere is given as
+4/3*3.14*r^3
 
-#Question1: Write a function that computes the volume of a sphere given its radius.
-#The volume of a sphere is given as
-# 4/3*3.14*r^3
-
-#Answer1:
+Answer1:
+"""
+import string
 
 def vol(redius):
     return (4/3)*(3.14)*(redius**3)
@@ -119,7 +121,7 @@ palindrome_check("nurses run")
 # Hint: In case you want to use set comparisons
 
 #Answer7:
-import string
+
 def ispergram(str1, alphabet=string.ascii_lowercase):
     alphabet = set(alphabet)
     str1 = str1.replace(" ","")
