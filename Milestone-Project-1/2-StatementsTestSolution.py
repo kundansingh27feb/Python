@@ -6,12 +6,12 @@
 # with 's'. Also what split function do?: st = 'Print only the words that start with s in this
 # sentence'
 
-st = 'Print only the words that start with s in this sentence Sanju'
-for word in st.split():
+str1 = 'Print only the words that start with s in this sentence Sanju'
+for word in str1.split():
     if word[0] == 's' or word[0] == 'S':
         print(word)
 #Split finction split the sentence in a list
-print(st.split())
+print(str1.split())
 
 #___________________________________________________________________________
 
