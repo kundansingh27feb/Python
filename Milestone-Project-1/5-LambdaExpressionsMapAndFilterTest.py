@@ -1,39 +1,37 @@
+"""
+_____________________________________________________________________________________________
 
-#_____________________________________________________________________________________________
+ Lambda Expressions, Map, and Filter
+_____________________________________________________________________________________________
 
-# Lambda Expressions, Map, and Filter
-#_____________________________________________________________________________________________
+General Question: What Is lambda And where we can Use it?
 
-#General Question: What Is lambda And where we can Use it?
+General Answer:
+_____________________________________________________________________________________________
 
-#General Answer:
-#_____________________________________________________________________________________________
+Question1: Write a lambda function to add 10 to a number.
 
-#Question1: Write a lambda function to add 10 to a number.
-
-#Answer1:
+Answer1:
 add_10 = lambda x: x+10
 print("Answer1: ", add_10(500))
 
-#___________________________________________________________________________
-#Question2: Write a lambda function to multiply two numbers.
+___________________________________________________________________________
+Question2: Write a lambda function to multiply two numbers.
 
-#Answer2:
-multiple = lambda a,b: a*b
-print("\nAnswer2: Result Of 2 numbers multiplication: ", multiple(100,200))
+Answer2:
 
-#___________________________________________________________________________
-#Question3: Sort a list of tuples by the second value using lambda
+___________________________________________________________________________
+Question3: Sort a list of tuples by the second value using lambda
 
-#Answer3:
+Answer3:
 
 
-#___________________________________________________________________________
-#Question4:  Use map() to square all numbers in a list.
+___________________________________________________________________________
+Question4:  Use map() to square all numbers in a list.
 
-#Answer4:
+Answer4:
 
-#___________________________________________________________________________
+___________________________________________________________________________
 # #Question5: Convert a list of strings to uppercase.
 
 #Answer5:
@@ -90,3 +88,4 @@ print("\nAnswer2: Result Of 2 numbers multiplication: ", multiple(100,200))
 #Answer15:
 
 #___________________________________________________________________________
+"""
