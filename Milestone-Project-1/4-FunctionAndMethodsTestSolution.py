@@ -40,9 +40,9 @@ ran_check(10,2,7)
 
 #Answer3:
 
-def up_low(str):
+def up_low(str1):
     d={"Upper":0, "Lower":0}
-    for ltr in str:
+    for ltr in str1:
         if ltr.isupper():
             d["Upper"]+=1
         elif ltr.islower():
@@ -120,12 +120,12 @@ palindrome_check("nurses run")
 
 #Answer7:
 import string
-def ispergram(str, alphabet=string.ascii_lowercase):
+def ispergram(str1, alphabet=string.ascii_lowercase):
     alphabet = set(alphabet)
-    str = str.replace(" ","")
-    str = str.lower()
-    str = set(str)
-    if str == alphabet:
+    str1 = str1.replace(" ","")
+    str1 = str1.lower()
+    str1 = set(str1)
+    if str1 == alphabet:
         print("\nAnswer7: Entered String Is Pangram.")
     else:
         print("\nAnswer7: String Is not A Pangram String")

@@ -35,8 +35,8 @@ print("Answer1:", less_of_2_even(5,8))
 #Also use the upper or lower case function to match
 
 #Answer2:
-def animal_crackers(str):
-    wordlist = str.split()
+def animal_crackers(str1):
+    wordlist = str1.split()
     return wordlist[0][0].upper() == wordlist[1][0].upper()
 print("Answer2:", animal_crackers('Kundan kanha'))
 
@@ -64,9 +64,9 @@ print("Answer3:", makes_twenty(2,3))
 
 #Answer4:
 
-def old_macdonald(str):
-    if len(str) > 3:
-        return str[:3].capitalize() + str[3:].capitalize()
+def old_macdonald(str1):
+    if len(str1) > 3:
+        return str1[:3].capitalize() + str1[3:].capitalize()
     else:
         return False
 print("Answer4:", old_macdonald('MACDonalD'))
@@ -79,8 +79,8 @@ print("Answer4:", old_macdonald('MACDonalD'))
 
 #Answer5:
 
-def master_yoda(str):
-    return ' '.join(str.split()[::-1])
+def master_yoda(str1):
+    return ' '.join(str1.split()[::-1])
 print("Answer5:", master_yoda("My Name Is Kundan Singh! . . ."))
 
 
@@ -134,9 +134,9 @@ print("Answer7-2:", has_33_2([3, 3, 6]))
 
 #Answer8:
 
-def paper_doll(str):
+def paper_doll(str1):
     result = ''
-    for char in str:
+    for char in str1:
         result += char * 3
     return result
 print("Answer8:", paper_doll('Kundan'))
