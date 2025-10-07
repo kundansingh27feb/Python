@@ -12,7 +12,7 @@ def display_game(game_list):
     print(game_list)
 #________________________________________________________________________
 
-def POSITION_choice():
+def podition_choice():
 
     # This original choice value can be anything that isn't an integer
     choice = 'wrong'
@@ -73,7 +73,7 @@ while GAME_ON:
     display_game(game_list)
 
     # Have player choose POSITION
-    POSITION = POSITION_choice()
+    POSITION = podition_choice()
 
     # Rewrite that POSITION and update game_list
     game_list = replacement_choice(game_list,POSITION)
