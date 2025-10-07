@@ -12,20 +12,20 @@ def display_game(game_list):
     print(game_list)
 #________________________________________________________________________
 
-def position_choice():
+def POSITION_choice():
 
     # This original choice value can be anything that isn't an integer
     choice = 'wrong'
     # While the choice is not a digit, keep asking for input.
     while choice not in ['0','1','2']:
         # we shouldn't convert here, otherwise we get an error on a wrong input
-        choice = input("Pick a position to replace (0,1,2): ")
+        choice = input("Pick a POSITION to replace (0,1,2): ")
 
         if choice not in ['0','1','2']:
             # THIS CLEARS THE CURRENT OUTPUT BELOW THE CELL
             clear_console()
 
-            print("Sorry, but you did not choose a valid position (0,1,2)")
+            print("Sorry, but you did not choose a valid POSITION (0,1,2)")
 
 
     # Optionally you can clear everything after running the function
@@ -35,13 +35,13 @@ def position_choice():
     return int(choice)
 
 #________________________________________________________________________
-def replacement_choice(game_list,position):
-    user_placement = input("Type a string to place at the position")
-    game_list[position] = user_placement
+def replacement_choice(game_list,POSITION):
+    user_placement = input("Type a string to place at the POSITION")
+    game_list[POSITION] = user_placement
     return game_list
 #________________________________________________________________________
 
-def gameon_choice():
+def GAME_ON_choice():
     # This original choice value can be anything that isn't a Y or N
     choice = 'wrong'
     # While the choice is not a digit, keep asking for input.
@@ -63,24 +63,24 @@ def gameon_choice():
 #________________________________________________________________________
 
 
-gameon = True
+GAME_ON = True
 # First Game List
 game_list = [0,1,2]
-while gameon:
+while GAME_ON:
 
     # Clear any historical output and show the game list
     clear_console()
     display_game(game_list)
 
-    # Have player choose position
-    position = position_choice()
+    # Have player choose POSITION
+    POSITION = POSITION_choice()
 
-    # Rewrite that position and update game_list
-    game_list = replacement_choice(game_list,position)
+    # Rewrite that POSITION and update game_list
+    game_list = replacement_choice(game_list,POSITION)
 
     # Clear Screen and show the updated game list
     clear_console()
     display_game(game_list)
 
     # Ask if you want to keep playing
-    gameon = gameon_choice()
+    GAME_ON = GAME_ON_choice()

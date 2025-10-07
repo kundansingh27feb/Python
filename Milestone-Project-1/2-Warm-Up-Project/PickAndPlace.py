@@ -14,7 +14,7 @@ ________________________________________________________________________________
 
 """
 #Create a small game where a user can choose a "position" in an existing list and replace it
-# with a value of their choice.
+# with a value of their CHOICE.
 
 # Example:
 
@@ -43,36 +43,36 @@ def display_list(list1):
     print("Here is the Current List:")
     print(list1)
 
-def choice_position():
-    choice = ''
-    while choice not in ['0','1','2']:
-        choice = input("Pick a position where you want to replace(0, 1, 2): ")
-        if choice not in ['0','1','2']:
-            print("Sorry! Worng Choice!! Please enter from (0, 1, 2).")
-    return int(choice)
+def CHOICE_position():
+    CHOICE = ''
+    while CHOICE not in ['0','1','2']:
+        CHOICE = input("Pick a position where you want to replace(0, 1, 2): ")
+        if CHOICE not in ['0','1','2']:
+            print("Sorry! Worng CHOICE!! Please enter from (0, 1, 2).")
+    return int(CHOICE)
 
-def replace_choice(list1,choice):
+def replace_CHOICE(list1,CHOICE):
     user_input = input("Please enter the string to replace: ")
-    list1[choice] = user_input
+    list1[CHOICE] = user_input
     return list1
 
-def gameon_choice():
-    choice = ''
-    while choice not in ['Y','N']:
-        choice = input("Would You like to keep playing? Y or N: ")
-        if choice not in ['Y','N']:
+def GAME_ON_CHOICE():
+    CHOICE = ''
+    while CHOICE not in ['Y','N']:
+        CHOICE = input("Would You like to keep playing? Y or N: ")
+        if CHOICE not in ['Y','N']:
             print("Wrong Input. Please select Y or N.")
 
-    if choice == 'Y':
+    if CHOICE == 'Y':
         return True
     else:
         return False
 
-gameon = True
+GAME_ON = True
 list1 = [0,0,0]
-while gameon:
+while GAME_ON:
     display_list(list1)
-    choice = choice_position()
-    list1 = replace_choice(list1,choice)
+    CHOICE = CHOICE_position()
+    list1 = replace_CHOICE(list1,CHOICE)
     display_list(list1)
-    gameon = gameon_choice()
+    GAME_ON = GAME_ON_CHOICE()
