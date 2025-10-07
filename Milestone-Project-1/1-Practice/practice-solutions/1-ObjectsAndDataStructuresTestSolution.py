@@ -85,8 +85,8 @@ print(LIST3)
 LIST4 = [5,3,4,6,1]
 
 
-# using builtin function. this will not sort the existing list if we need we can store the output to
-# any other variable
+# using builtin function. this will not sort the existing list if we need we can store
+# the output to any other variable
 # print(sorted(list4))
 
 # using . This will sort the existing list
@@ -153,8 +153,9 @@ print(set(LIST5))
 # Booleans
 # ___________________________________________________________________________
 
-# Question16: What will be the resulting Boolean of the following pieces of code (answer fist then
-# check by typing it in!) a = 2 > 3, a = 3 <= 2, a = 3 == 2.0, a = 3.0 == 3, a = 4**0.5 != 2
+# Question16: What will be the resulting Boolean of the following pieces of code
+# (answer fist then check by typing it in!)
+# a = 2 > 3, a = 3 <= 2, a = 3 == 2.0, a = 3.0 == 3, a = 4**0.5 != 2
 
 VOL1 = 6
 VOL2 = 10
