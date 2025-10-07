@@ -33,4 +33,3 @@ jobs:
     #     body: "This PR was created automatically because Pylint checks passed."
     #     base: main
     #     branch: ${{ github.ref_name }}
-        #        pylint --disable=C0103, R1705, R1703, R1723 $(git ls-files '*.py') # If you want to disable perticular warning
