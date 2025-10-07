@@ -22,3 +22,15 @@ jobs:
       run: |
         pylint --fail-under=8.5 $(git ls-files '*.py') #Check the code quality if its greater or equal 9 it will pass otherwise pipeline will fail
         #        pylint --disable=C0103, R1705, R1703, R1723 $(git ls-files '*.py') # If you want to disable perticular warning
+
+    # - name: Create Pull Request
+    #   if: success()  # Only runs if Pylint step succeeds
+    #   uses: peter-evans/create-pull-request@v5
+    #   with:
+    #     token: ${{ secrets.GITHUB_TOKEN }}
+    #     commit-message: "Auto PR: Pylint passed"
+    #     title: "Auto PR: Pylint passed"
+    #     body: "This PR was created automatically because Pylint checks passed."
+    #     base: main
+    #     branch: ${{ github.ref_name }}
+        #        pylint --disable=C0103, R1705, R1703, R1723 $(git ls-files '*.py') # If you want to disable perticular warning
