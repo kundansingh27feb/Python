@@ -13,12 +13,13 @@ Joining User Inputs and Logic Flow
 _____________________________________________________________________________________________
 
 """
-#Create a small game where a user can choose a "position" in an existing list and replace it with
-#a value of their choice.
+#Create a small game where a user can choose a "position" in an existing list and replace it
+# with a value of their choice.
 
 # Example:
 
-# PS C:\Users\v-kundsingh\Projects\AI\Python\Milestone-Project-1\Warm Up Project> python .\Solution.py
+# PS C:\Users\v-kundsingh\Projects\AI\Python\Milestone-Project-1\Warm Up Project> python
+# .\Solution.py
 # Here is the current list
 # [0, 1, 2]
 

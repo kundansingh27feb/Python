@@ -37,8 +37,8 @@ Answer1:
 #Answer5:
 
 #___________________________________________________________________________
-#Question6: Add two lists element-wise using map(). a = [1, 2, 3], b = [4, 5, 6] output should be
-# [5, 7, 9]
+#Question6: Add two lists element-wise using map(). a = [1, 2, 3], b = [4, 5, 6] output should
+# be [5, 7, 9]
 
 #Answer6:
 
@@ -63,29 +63,34 @@ Answer1:
 #Answer9:
 
 #___________________________________________________________________________
-#Question10: Use map() and filter() to get squares of even numbers only. nums = [1, 2, 3, 4, 5, 6]
+#Question10: Use map() and filter() to get squares of even numbers only.
+# nums = [1, 2, 3, 4, 5, 6]
 
 #Answer10:
 
 #___________________________________________________________________________
-#Question11: Extract palindromes from a list of words. words = ["madam", "python", "level", "world"]
+#Question11: Extract palindromes from a list of words.
+# words = ["madam", "python", "level", "world"]
 
 #Answer11:
 
 
 #___________________________________________________________________________
 #Question12: Sort a list of dictionaries by "age" using lambda.
-#people = [{"name": "Alice", "age": 25}, {"name": "Bob", "age": 20}, {"name": "Charlie", "age": 30}]
+#people = [{"name": "Alice", "age": 25}, {"name": "Bob", "age": 20},
+# {"name": "Charlie", "age": 30}]
 
 #Answer12:
 
 #___________________________________________________________________________
-#Question13: Use map() to get the length of each string. words = ["Python", "Lambda", "Filter", "Map"]
+#Question13: Use map() to get the length of each string.
+# words = ["Python", "Lambda", "Filter", "Map"]
 
 #Answer13:
 
 #___________________________________________________________________________
-#Question14: Combine map() and filter() to get cube of odd numbers only. nums = [1, 2, 3, 4, 5, 6]
+#Question14: Combine map() and filter() to get cube of odd numbers only.
+# nums = [1, 2, 3, 4, 5, 6]
 
 #Answer14:
 
@@ -102,4 +107,3 @@ Answer1:
 #Answer15:
 
 #___________________________________________________________________________
-

@@ -96,7 +96,8 @@ greate_50 = list(filter(lambda x: x>50,numbers))
 print("\nAnswer9: ", greate_50)
 
 #___________________________________________________________________________
-#Question10: Use map() and filter() to get squares of even numbers only. nums = [1, 2, 3, 4, 5, 6]
+#Question10: Use map() and filter() to get squares of even numbers only.
+# nums = [1, 2, 3, 4, 5, 6]
 
 #Answer10:
 NUMS = [1, 2, 3, 4, 5, 6]
@@ -104,7 +105,8 @@ sq_of_even=list(map(lambda x: x**2,filter(lambda x: x%2==0,NUMS)))
 print("\nAnswer10: Square Of Even Numbers: ",sq_of_even)
 
 #___________________________________________________________________________
-#Question11: Extract palindromes from a list of words. words = ["madam", "python", "level", "world"]
+#Question11: Extract palindromes from a list of words.
+# words = ["madam", "python", "level", "world"]
 
 #Answer11:
 
@@ -122,14 +124,16 @@ sorted_people = sorted(people,key=lambda x:x["age"])
 print("\nAnswer12: People sorted with age: ",sorted_people)
 
 #___________________________________________________________________________
-#Question13: Use map() to get the length of each string. words = ["Python", "Lambda", "Filter", "Map"]
+#Question13: Use map() to get the length of each string.
+# words = ["Python", "Lambda", "Filter", "Map"]
 
 #Answer13:
 words = ["Python", "Lambda", "Filter", "Map"]
 len_string = list(map(lambda x:len(x),words))
 print("\nAnswer13: Leanth Of Each String: ",len_string)
 #___________________________________________________________________________
-#Question14: Combine map() and filter() to get cube of odd numbers only. nums = [1, 2, 3, 4, 5, 6]
+#Question14: Combine map() and filter() to get cube of odd numbers only.
+# nums = [1, 2, 3, 4, 5, 6]
 
 #Answer14:
 
