@@ -41,7 +41,7 @@ def replacement_choice(game_list,POSITION):
     return game_list
 #________________________________________________________________________
 
-def GAME_ON_choice():
+def game_on_choice():
     # This original choice value can be anything that isn't a Y or N
     choice = 'wrong'
     # While the choice is not a digit, keep asking for input.
@@ -83,4 +83,4 @@ while GAME_ON:
     display_game(game_list)
 
     # Ask if you want to keep playing
-    GAME_ON = GAME_ON_choice()
+    GAME_ON = game_on_choice()
