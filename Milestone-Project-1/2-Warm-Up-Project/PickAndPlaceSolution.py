@@ -1,5 +1,6 @@
 '''
 
+
 '''
 import os
 def clear_console():
@@ -62,10 +63,10 @@ def gameon_choice():
 #________________________________________________________________________
 
 
-game_on = True
+gameon = True
 # First Game List
 game_list = [0,1,2]
-while game_on:
+while gameon:
 
     # Clear any historical output and show the game list
     clear_console()
@@ -82,4 +83,4 @@ while game_on:
     display_game(game_list)
 
     # Ask if you want to keep playing
-    game_on = gameon_choice()
+    gameon = gameon_choice()

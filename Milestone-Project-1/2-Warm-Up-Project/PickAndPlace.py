@@ -68,11 +68,11 @@ def gameon_choice():
     else:
         return False
 
-game_on = True
+gameon = True
 list1 = [0,0,0]
-while game_on:
+while gameon:
     display_list(list1)
     choice = choice_position()
     list1 = replace_choice(list1,choice)
     display_list(list1)
-    game_on = gameon_choice()
+    gameon = gameon_choice()
