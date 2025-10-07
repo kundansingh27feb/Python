@@ -3,26 +3,26 @@
 
 '''
 import os
-'''
-
-'''
-
 def clear_console():
+    '''
+
+    '''
+
     os.system('cls' if os.name == 'nt' else 'clear')
 #________________________________________________________________________
-'''
-
-'''
-
 def display_game(game_list):
+    '''
+
+    '''
+
     print("Here is the current list")
     print(game_list)
 #________________________________________________________________________
-'''
-
-'''
 
 def podition_choice():
+    '''
+
+    '''
 
     # This original choice value can be anything that isn't an integer
     choice = 'wrong'
@@ -45,20 +45,22 @@ def podition_choice():
     return int(choice)
 
 #________________________________________________________________________
-'''
-
-'''
 
 def replacement_choice(game_list,POSITION):
+    '''
+
+    '''
+
     user_placement = input("Type a string to place at the POSITION")
     game_list[POSITION] = user_placement
     return game_list
 #________________________________________________________________________
-'''
-
-'''
 
 def game_on_choice():
+    '''
+
+    '''
+
     # This original choice value can be anything that isn't a Y or N
     choice = 'wrong'
     # While the choice is not a digit, keep asking for input.

@@ -38,36 +38,38 @@ ________________________________________________________________________________
 # ['10', 1, '5']
 
 # Would you like to keep playing? Y or N N
-'''
-
-'''
 
 def display_list(list1):
+    '''
+
+    '''
+
     print("Here is the Current List:")
     print(list1)
-'''
-
-'''
 
 def choice_position():
+    '''
+
+    '''
     choice = ''
     while choice not in ['0','1','2']:
         choice = input("Pick a position where you want to replace(0, 1, 2): ")
         if choice not in ['0','1','2']:
             print("Sorry! Worng Choice!! Please enter from (0, 1, 2).")
     return int(choice)
-'''
-
-'''
 
 def replace_choice(list1,choice):
+    '''
+
+    '''
     user_input = input("Please enter the string to replace: ")
     list1[choice] = user_input
     return list1
-'''
 
-'''
 def game_on_choice():
+    '''
+
+    '''
     choice = ''
     while choice not in ['Y','N']:
         choice = input("Would You like to keep playing? Y or N: ")
